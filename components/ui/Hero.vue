@@ -1,5 +1,5 @@
 <template>
-  <div class="hero bg-transparent flex">
+  <div class="hero bg-transparent flex mt-10">
     <div class="hero-content ">
       <div class="max-w-md">
         <h1 class="text-5xl font-bold">D'Camron Dunlap</h1>

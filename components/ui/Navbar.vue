@@ -2,10 +2,10 @@
   <div class="navbar-wrapper">
     <header class="px-4 py-4 sm:px-24 rounded-full max-w-xs sm:w-64 flex">
       <button @click="isMenuOpen = !isMenuOpen" class="sm:hidden">
-        <Icon name="ci:hamburger" class="text-orange-500 text-xl" color="" />
+        <Icon name="ci:hamburger" class="text-cyan-500 text-xl" color="" />
       </button>
       <nav :class="{'hidden': !isMenuOpen}" class="sm:block mt-4 font-bold sm:mt-2 ">
-        <ul class="menu bg-orange-500 rounded-box p-2 space-y-2 sm:space-y-0 sm:space-x-4  sm:items-center active:text-bg-blue-950 text-xl ">
+        <ul class="menu bg-cyan-500 rounded-box p-2 space-y-2 sm:space-y-0 sm:space-x-4  sm:items-center active:text-bg-blue-950 text-xl ">
           <li>
             <NuxtLink
               to="/"

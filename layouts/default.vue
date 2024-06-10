@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-blue-950 min-h-screen text-[#c8d2dd] flex flex-col">
+  <div class="bg-sky-950 min-h-screen text-zinc-300 flex flex-col">
     <UiHero />
     <UiNavbar />
     <SectionsContact />
