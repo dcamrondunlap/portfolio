@@ -12,16 +12,17 @@
     </div>
   </div> -->
 
-  <div class="flex items-center justify-center min-h-screen bg-sky-950 text-zinc-300 p-10">
-    <div class="grid grid-rows-3 md:grid-cols-4 gap-20 w-full md:max-w-screen-2xl h-full ml-96">
+  <div class="flex items-center justify-center min-h-screen bg-sky-950 text-zinc-300 md:p-10">
+    <div class="grid grid-rows-3 md:grid-cols-4 md:gap-20 w-full md:max-w-screen-2xl h-full md:ml-96">
       <!-- Fixed sections -->
-      <div class="md:col-span-1 flex flex-col space-y-4 sticky top-0 self-start">
-        <UiHero />
+      <div class="md:col-span-1 flex flex-col space-y-4 md:sticky md:top-0 self-start">
         <UiNavbar />
+        <UiHero />
+
         <SectionsContact />
       </div>
       <!-- Scrollable content area -->
-      <div class="col-span-3 overflow-y-auto  p-4 mt-4 md:mt-0 md:ml-36 ">
+      <div class="col-span-3 overflow-y-auto sticky  p-4 mt-4 md:mt-0 md:ml-36 ">
         <slot />
       </div>
     </div>
