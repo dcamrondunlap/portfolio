@@ -1,7 +1,10 @@
 <template>
-  <NuxtLayout >
-    <NuxtPage  />
-  </NuxtLayout>
+  <div class="bg-sky-950 min-h-screen text-zinc-300 grid content-start">
+    <NuxtLayout >
+      <Header />
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
 
 <script setup>

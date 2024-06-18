@@ -1,10 +1,13 @@
 <template>
   <div>
-    <h1>About page</h1>
-    
+    placement
   </div>
 </template>
 
 <script setup>
 
 </script>
+
+<style>
+
+</style>

@@ -1,11 +1,10 @@
 <template>
-  <div class="hero bg-transparent flex mt-1 text-center">
+  <div class="hero bg-transparent flex justify-center items-center mt-1 text-center">
     <div class="hero-content">
       <div class="max-w-sm">
         <h1 class="text-5xl text-nowrap font-bold">D'Camron Dunlap</h1>
-        <h3 class="text-2xl font-semibold">Junior Software Engineer</h3>
-        <p class="py-6">After a whimsical decision, I've come to truly enjoy all aspects that software development have brought me.
-        </p>
+        <h3 class="text-2xl font-semibold">Aspiring Software Engineer</h3>
+
       </div>
     </div>
   </div>
