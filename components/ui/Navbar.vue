@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar text-3xl flex flex-col justify-center ml-5">
+  <div class="navbar text-3xl flex flex-row justify-center ml-5">
     <li>
       <NuxtLink
         to="/"

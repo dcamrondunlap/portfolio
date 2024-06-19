@@ -1,6 +1,7 @@
 <template>
-  <div>
-    placement
+  <div class="flex flex-col mt-20">
+    <UiContact />
+    <UiCopyright />
   </div>
 </template>
 

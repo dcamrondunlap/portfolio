@@ -1,9 +1,12 @@
 <template>
-  <div class="bg-sky-950 min-h-screen text-zinc-300 grid content-start">
-    <NuxtLayout >
-      <Header />
-      <NuxtPage />
-    </NuxtLayout>
+  <div class="bg-sky-950 min-h-screen text-zinc-300 flex justify-center items-center">
+    <div>
+      <NuxtLayout >
+        <Header />
+        <NuxtPage />
+        <Footer />
+      </NuxtLayout>
+    </div>
   </div>
 </template>
 
@@ -35,7 +38,7 @@ body {
 <style>
 .page-enter-active,
 .page-leave-active {
-  transition: all 0.4s;
+  transition: all 0.8s ease-in;
 }
 .page-enter-from,
 .page-leave-to {
